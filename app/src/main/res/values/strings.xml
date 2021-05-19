@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Bangkit G Class</string>
+    <string name="go_to_shared_preferences_label">Go To Shared Preferences</string>
+    <string name="go_to_sqlite_label">Go To SQLite</string>
+    <string name="email_hint_label">Masukkan Email</string>
+    <string name="login_label">Login</string>
+    <string name="password_hint_label">Masukkan Password</string>
+    <string name="add_label">Add</string>
+    <string name="read_data_label">Read Data</string>
+</resources>
