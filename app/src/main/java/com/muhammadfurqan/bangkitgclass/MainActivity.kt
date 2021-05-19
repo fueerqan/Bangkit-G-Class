@@ -11,6 +11,7 @@ class MainActivity : AppCompatActivity() {
 
     private lateinit var btnSharedPref: AppCompatButton
     private lateinit var btnSqlite: AppCompatButton
+    private lateinit var btnDagger: AppCompatButton
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -25,6 +26,11 @@ class MainActivity : AppCompatActivity() {
         btnSqlite.setOnClickListener {
             navigateToSqlite()
         }
+
+        btnDagger = findViewById(R.id.btn_to_di_dagger)
+        btnDagger.setOnClickListener {
+            navigateToDagger()
+        }
     }
 
     private fun navigateToSharedPref() {
@@ -36,6 +42,12 @@ class MainActivity : AppCompatActivity() {
     private fun navigateToSqlite() {
         startActivity(
             Intent(this, SQLiteActivity::class.java)
+        )
+    }
+
+    private fun navigateToDagger() {
+        startActivity(
+            Intent(this, DaggerActivity::class.java)
         )
     }
 }

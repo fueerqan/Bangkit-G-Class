@@ -7,4 +7,5 @@
     <string name="password_hint_label">Masukkan Password</string>
     <string name="add_label">Add</string>
     <string name="read_data_label">Read Data</string>
+    <string name="go_to_di_with_dagger">Go To DI Dagger</string>
 </resources>

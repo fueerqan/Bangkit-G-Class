@@ -1,2 +1,4 @@
+include ':core'
+include ':features:dagger'
 include ':app'
 rootProject.name = "Bangkit G Class"
